@@ -42,8 +42,8 @@ This command will create a jupyter lab instance within the docker container that
 As such, while you are working on the docker container, all files are stored locally (through docker volumes) and are 
 therefore saved if the container crashes.
 
-The terminal will output a url that can be navigated to on the host computer. Something like: `127.0.0.1:8888/lab/<unique_key>`. 
-Or you can navigate to `localhost:8888/lab` and enter the key provided to you.
+The terminal will output a url that can be navigated to on the host computer. Something like: `127.0.0.1:8888/lab/?token=<unique_token>`.
+Or you can navigate to `localhost:8888/lab` and enter the token provided to you.
 
 Once in jupyter lab you can navigate to `src/spatial_temperature.ipynb` and run the program.
 
