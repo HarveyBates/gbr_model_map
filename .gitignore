@@ -1,0 +1,5 @@
+.DS_Store
+*.swp
+*.*.sqp
+.ipynb_checkpoints
+dataset
