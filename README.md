@@ -31,7 +31,9 @@ Run the docker container using port forwarding (`-p 8888:8888`) and a volume con
 This will execute the file `entrypoint.sh` and install python dependencies through a standard python vitual environment. 
 The purpose of `entrypoint.sh` is to simulate a users workflow and normally wouldnt exist.
 
-*If you dont want to download the* [dataset](https://dapds00.nci.org.au/thredds/fileServer/fx3/gbr1_2.0/gbr1_simple_2022-03-11.nc)
+*If you **do** want to download the* [dataset](https://dapds00.nci.org.au/thredds/fileServer/fx3/gbr1_2.0/gbr1_simple_2022-03-11.nc) *, grab another :coffee: as it takes around 30 minutes.*
+
+*If you **don't** want to download the* [dataset](https://dapds00.nci.org.au/thredds/fileServer/fx3/gbr1_2.0/gbr1_simple_2022-03-11.nc)
 *you can create a directory called* `dataset` *in the root of this directory and put the* `gbr1_simple_2022-03-11.nc` *file there. 
 You will also need to comment out lines 19-21 in* `entrypoint.sh`.
 
