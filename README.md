@@ -46,3 +46,6 @@ The terminal will output a url that can be navigated to on the host computer. So
 Or you can navigate to `localhost:8888/lab` and enter the key provided to you.
 
 Once in jupyter lab you can navigate to `src/spatial_temperature.ipynb` and run the program.
+
+# Licence
+This work is MIT licensed, as found in the [LICENCE](https://github.com/HarveyBates/gbr_model_map/blob/master/LICENSE) file.
