@@ -1,6 +1,6 @@
 # This dockerfile builds a geospatial environment for python in docker and give you
 # access to a jupyter lab development environment.
-# It takes a while to build (~ 20 minutes) but this process is only 
+# It takes a while to build (~ 20 minutes) but this process is only run once.
 #
 # All files are handled internally throught volumes so if docker crashes the saved files will
 # still be on your host computer.
